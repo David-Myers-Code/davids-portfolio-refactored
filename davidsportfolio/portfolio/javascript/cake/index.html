@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Let them eat cake</title>
+<link href="style1.css" rel="stylesheet" type="text/css">
+<script src="jquery-2.1.1.min.js"></script>
+<script src="cake.js"></script>
+
+</head>
+
+<body>
+<h1>Let's eat some cake!</h1>
+<p>Try and beat the computer</p>
+<p>Careful, it is a highly intelligent A.I.!</p>
+
+
+<p>
+
+<label for="playerOne" class="output">Your name: </label>
+<input type="text" name="playerOne" id="playerOne"/><span id="oneError"></span>
+</p>
+<p>
+<label for="playerTwo" class="output">The Computer's name: </label>
+<input type="text" name="playerTwo" id="playerTwo"/><span id="twoError"></span>
+</p>
+<p>
+<label for="cakeAmount" class="output">How many cakes should we eat?<br>  Pick a number between 10 and 50</label>
+<input type="text" name="cakeAmount" id="cakeAmount"/><span id="cakeError"></span>
+</p>
+<p>
+<button type="button" id="submit" class="submitButton">Let's Go!</button>
+<button type="button" id="reset" class="submitButtons">Reset</button><br><br><br>
+</p>
+
+<p>
+<label for="cakeOutput" class="output">Cakes left: </label>
+<input type="text" name="cakeOutput" id="cakeOutput" disabled/>
+</p>
+<div id="cakeButtons">
+<button type="button" id="oneCake">Eat one cake</button>
+<button type="button" id="twoCakes" >Eat two cakes</button>
+<button type="button" id="threeCakes" >Eat three Cakes</button>
+</div>
+
+<p id="playLabel">
+The play by play:
+</p>
+<p>
+<textarea id="play" rows="15" cols="50" disabled></textarea>
+</p>
+
+
+</div>
+
+
+</body>
+
+</html>

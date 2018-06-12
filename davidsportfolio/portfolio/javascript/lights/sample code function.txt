@@ -1,0 +1,3 @@
+$("td".nth-child[x], "td".nth-child[x-4], "td".nth-child[x+4]).click(function(){
+	$(this).toggle(".lightsOn");
+	

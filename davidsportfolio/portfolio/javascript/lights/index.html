@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lights Out</title>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script src="jquery-2.1.1.min.js"></script>
+<script src="jsframework/jquery-ui.js"></script>
+<script src="lightsOut.js"></script>
+
+</head>
+
+<body>
+	<h1>Lights out Game</h1>
+	<p>
+	Click on a button, and change the colors of the buttons around it.  Change the
+	 color of all the buttons and win the game.
+	 </p>
+	<table id="game">
+	<tr>
+		<td class="blueBox"></td><td class="blueBox"></td>
+		<td class="blueBox"></td><td class="blueBox"></td>
+	</tr>
+	<tr>
+		<td class="blueBox"></td><td class="blueBox" ></td>
+		<td class="blueBox"></td><td class="blueBox"></td>
+	</tr>
+	<tr>
+		<td class="blueBox"></td><td class="blueBox"></td>
+		<td class="blueBox"></td><td class="blueBox"></td>
+	</tr>
+	<tr>
+		<td class="blueBox"></td><td class="blueBox"></td>
+		<td class="blueBox"></td><td class="blueBox"></td>
+	</tr>
+	
+	
+	</table>
+	<button type="button" id="random">Randomize</button>
+	<p id="win">You won!
+	</p>
+</body>
+</html>

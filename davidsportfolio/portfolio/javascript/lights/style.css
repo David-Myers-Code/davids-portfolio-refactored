@@ -1,0 +1,71 @@
+body{
+	background-color: #F7F3DE;
+}
+
+table{
+	background-color: #EFE726;
+}
+h1{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Tahoma;
+	}
+p {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	font-family: Tahoma;
+	}
+#game{
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	}
+table tr{
+	padding: 20px;
+
+	}
+td{
+	width: 20px;
+	height: 20px;
+	}
+
+table td{
+	padding: 20px;
+	background-color: blue;
+	}
+	
+.redBox{
+		background-color: #EC0E2D;
+		border-radius: 20px;
+		}
+.blueBox{
+	background-color:#1D89B9;
+	border-radius:10px;
+	}
+#random{
+	text-align: center;
+	width: 100px;
+	margin-left: 625px;
+	margin-top: 50px;
+	border-radius: 15px;
+	font-family: Tahoma;
+	}
+
+#win{
+	background-color: #390BE8;
+	color: #EC7E23;
+	width: 100px;
+	height: 100px;
+	font-weight: bold;
+	font-family: Tahoma;
+	font-size: 30px;
+	padding-top: 10px;
+	border-radius: 5px;
+	
+	
+	}

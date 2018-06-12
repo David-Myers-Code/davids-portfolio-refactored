@@ -1,0 +1,66 @@
+
+button 1 click
+	if cake amount - 1 = 0
+	output you lose
+	
+
+	else	
+	cake amount - 1
+	output cake amount
+	run computer turn
+
+button 2 click
+
+	if cake amount - 2 < 0
+	prevent click 
+
+	else if cake amount - 2 = 0
+	output you lose
+
+	else
+	cake amount -2
+	output cake amount
+	run computer turn
+
+button 3 click 
+	if cake amount - 3 < 0
+	prevent click 
+	else if cake amount - 3 = 0
+	output you lose
+
+	else
+	cake amount -3
+	output cake amount
+	run computer turn
+
+
+Computer turn
+
+	computer turn = generate random number, mod 3
+	
+	
+	if cake amount = 1
+	computer loses
+
+	else if cake amount = 2
+	cake amount -1
+	out put cakes
+
+	else if cake amount = 3
+	cake amount - 2
+	out put cakes
+	
+	else
+	cake amount - computer turn
+	out put cakes
+	
+	
+
+
+
+
+
+
+
+
+
